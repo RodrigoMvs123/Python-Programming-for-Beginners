@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=eWRfhZUzrAc&t=921s
 
 https://raw.githubusercontent.com/RodrigoMvs123/Python-Programming-for-Beginners/main/README.md
 
-
+https://github.com/RodrigoMvs123/Python-Programming-for-Beginners/blame/main/README.md
 
 https://www.python.org/downloads/
 
