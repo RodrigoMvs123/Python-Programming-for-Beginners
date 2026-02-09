@@ -1,24 +1,19 @@
 # Python-Programming-for-Beginners
 
-https://www.youtube.com/watch?v=eWRfhZUzrAc&t=921s
+- https://www.youtube.com/watch?v=eWRfhZUzrAc&t=921s
+- https://raw.githubusercontent.com/RodrigoMvs123/Python-Programming-for-Beginners/main/README.md
+- https://github.com/RodrigoMvs123/Python-Programming-for-Beginners/blame/main/README.md
+- https://www.python.org/downloads/
+- https://replit.com/
 
-https://raw.githubusercontent.com/RodrigoMvs123/Python-Programming-for-Beginners/main/README.md
-
-https://github.com/RodrigoMvs123/Python-Programming-for-Beginners/blame/main/README.md
-
-https://www.python.org/downloads/
-
-https://replit.com/
-
+```python
 import random
-
 def get_choises():
   options = ["rock", "paper", "scissors"]
   player_choise = input ("Enter a choise (rock,paper,scissors): ")
   computer_choise = ramdom.choise(options)
   choises = {"player": player_choise, "computer": computer_choise}
   return choises
-
 def check_win(player,computer):
   print(f"You chose {player}, computer chose {computer}")
   if player == computer: 
@@ -38,7 +33,7 @@ def check_win(player,computer):
     return "Scissors cuts paper! Your win!"
   else:
     return "Rock smashes scissors! You lose."
-
 choises = get_choises()
 result = check_win(choises["player"], choises["computer"])
 print(result)
+```
